@@ -10,25 +10,49 @@
 <body>
     <div id="container">
         <form action="" method="post">
-            <h2>Blog Editor</h2>
+            <h2>記事編集画面</h2>
             <table align="center">
+                <p style="text-align:right">
+					<a href="#">カテゴリ一覧</a>
+					&nbsp;&nbsp;
+					<a href="#">投稿記事一覧</a>
+                    &nbsp;&nbsp;
+                    <a href="#">ログアウト</a>
+				</p>
                 <tr>
                     <td class="biaoti">标题</td>
                     <td><input type="text" name="title" class="biankuang"></td>
                 </tr>
                 <tr>
-                    <td>内容简介</td>
-                    <td><input type="text" name="desc" class="biankuang"></td>
+                    <td class="biaoti">登録済<br>みプログ画像</td>
+                    <td><img src="sea.jpg" alt="sea"></td>
+                </tr>
+                <tr>
+                    <td class="biaoti">ブログ画像</td>
+                    <td><input type="file" name="image"></td>
+                </tr>
+                <tr>
+                    <td class="biaoti">分类</td>
+                    <td>
+                        <select name="" id="">
+                            <option value="sea">海洋</option>
+                            <option value="land">陆地</option>
+                            
+                        </select>
+                    </td>
                 </tr>
                 <tr>
                     <td class="bjnr">编辑内容</td>
                     <td><textarea name="content" rows="10" cols="80"></textarea></td>
                 </tr>
-                <tr>
-                    <td>上传图片</td>
-                    <td><input type="file" name="image"></td>
-                </tr>
+                
             </table>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="submit"   class="button" value="登録">
+                &nbsp;&nbsp;
+                <input type="submit" class="button" value="戻る">
+                &nbsp;&nbsp;
+                <input type="submit"  class="button"  value="削除">
         </form>
     </div>
 </body>

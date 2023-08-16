@@ -15,7 +15,13 @@ h2{
 }
 .biaoti{
     text-align: right;
+    
 }
 .bjnr{
     vertical-align: top;
+    text-align: right;
+}
+
+.button{
+    background-color: blanchedalmond;
 }

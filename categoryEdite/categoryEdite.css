@@ -6,16 +6,17 @@ h2{
 }
 #container{
     border: 2px solid burlywood;
-    width: 800px;
+    width: 600px;
+    height: 400px;
     margin: 0 auto;
 
 }
+.button{
+     background-color: antiquewhite;
+
+     text-align:center;
+}
 .biankuang{
-    width: 576px; ;
-}
-.biaoti{
-    text-align: right;
-}
-.bjnr{
-    vertical-align: top;
+    width: 300px; 
+    background-color: azure;
 }
